@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UserListComponent } from './user-list/user-list.component';
+import { RowsColumnsColorsComponent } from './rows-columns-colors/rows-columns-colors.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UserListComponent
+    UserListComponent,
+    RowsColumnsColorsComponent
   ],
   imports: [
     BrowserModule,
